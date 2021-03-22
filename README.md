@@ -8,6 +8,7 @@ We have 4 models Convolutional neural network (CNN) :
 2. CNN (v01) (cats_and_dogs_small dataset)
 3. CNN With data augmentation (v02) (cats_and_dogs_small dataset)
 4. CNN With VGG-16 With data augmentation (v03) (cats_and_dogs_small dataset)
+5. CNN With VGG-16 With data augmentation With Unfreeze the base model (v04) (cats_and_dogs_small dataset)
 
 > we find them in `CNN.ipynb` and `Project.ipynb`
 
@@ -46,6 +47,22 @@ This model is `project_V02.h5`
 ## 4. CNN With VGG-16 With data augmentation (v03) (cats_and_dogs_small dataset)
 
 This model is `project_V03.h5`
+
+We not change weights in convolutional base VGG-16 ( freeze the base model ) and train only fully connected neural network
+
+![CNN (v03)](project_V03.png)
+
+VGG-16 Architecture :
+
+![VGG_16](VGG_16.png)
+
+---
+
+## 5. CNN With VGG-16 With data augmentation With Unfreeze the base model (v04) (cats_and_dogs_small dataset)
+
+This model is `project_V04.h5` (download model weights from [here](https://drive.google.com/file/d/1QR8SlQggBtn_A8EI77RtejgX3NiY9RWe/view?usp=sharing) )
+
+We change weights in convolutional base VGG-16 ( Unfreeze the base model ) and train only fully connected neural network
 
 ![CNN (v03)](project_V03.png)
 
