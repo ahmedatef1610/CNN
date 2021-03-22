@@ -83,7 +83,7 @@ This model is `project_V04.h5` (download model weights from [here](https://drive
 
 we find code in `VGG-16.ipynb`
 
-We change weights in convolutional base VGG-16 ( Unfreeze the base model ) and train only fully connected neural network
+We change weights in convolutional base VGG-16 ( Unfreeze the base model ) and train fully connected neural network
 
 <!-- ![CNN (v03)](project_V03.png) -->
 
