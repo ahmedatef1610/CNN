@@ -10,7 +10,7 @@ We have 4 models Convolutional neural network (CNN) :
 4. CNN With VGG-16 With data augmentation (v03) (cats_and_dogs_small dataset)
 5. CNN With VGG-16 With data augmentation With Unfreeze the base model (v04) (cats_and_dogs_small dataset)
 
-> we find them in `CNN.ipynb` and `Project.ipynb`
+> we find them in `CNN.ipynb` , `Project.ipynb` and `VGG-16.ipynb`
 
 ---
 
@@ -24,7 +24,12 @@ We have 4 models Convolutional neural network (CNN) :
 
 This model is `cnn_fashion_mnist.h5`
 
-![cnn_fashion_mnist](cnn_fashion_mnist.png)
+we find code in `CNN.ipynb`
+
+<!-- ![cnn_fashion_mnist](cnn_fashion_mnist.png) -->
+
+<img src="cnn_fashion_mnist.png" height="" width="300" />
+
 
 ---
 
@@ -32,7 +37,11 @@ This model is `cnn_fashion_mnist.h5`
 
 This model is `project_V01.h5`
 
-![CNN (v01)](project_V01.png)
+we find code in `Project.ipynb`
+
+<!-- ![CNN (v01)](project_V01.png) -->
+
+<img src="project_V01.png" width="300" />
 
 ---
 
@@ -40,7 +49,11 @@ This model is `project_V01.h5`
 
 This model is `project_V02.h5`
 
-![CNN (v02)](project_V02.png)
+we find code in `Project.ipynb`
+
+<!-- ![CNN (v02)](project_V02.png) -->
+
+<img src="project_V02.png" width="300" />
 
 ---
 
@@ -48,13 +61,19 @@ This model is `project_V02.h5`
 
 This model is `project_V03.h5`
 
+we find code in `Project.ipynb`
+
 We not change weights in convolutional base VGG-16 ( freeze the base model ) and train only fully connected neural network
 
-![CNN (v03)](project_V03.png)
+<!-- ![CNN (v03)](project_V03.png) -->
+
+<img src="project_V03.png" width="300" />
 
 VGG-16 Architecture :
 
-![VGG_16](VGG_16.png)
+<!-- ![VGG_16](VGG_16.png) -->
+
+<img src="VGG_16.png" width="300" />
 
 ---
 
@@ -62,12 +81,18 @@ VGG-16 Architecture :
 
 This model is `project_V04.h5` (download model weights from [here](https://drive.google.com/file/d/1QR8SlQggBtn_A8EI77RtejgX3NiY9RWe/view?usp=sharing) )
 
+we find code in `VGG-16.ipynb`
+
 We change weights in convolutional base VGG-16 ( Unfreeze the base model ) and train only fully connected neural network
 
-![CNN (v03)](project_V03.png)
+<!-- ![CNN (v03)](project_V03.png) -->
+
+<img src="project_V03.png" width="300" />
 
 VGG-16 Architecture :
 
-![VGG_16](VGG_16.png)
+<!-- ![VGG_16](VGG_16.png) -->
+
+<img src="VGG_16.png" width="300" />
 
 ---
